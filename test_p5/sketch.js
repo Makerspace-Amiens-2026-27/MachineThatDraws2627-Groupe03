@@ -10,3 +10,4 @@ function draw() {
   quad(20, 20, 80, 20, 80, 80, 20, 80); //crée un carré pour tester
   endRecordSvg();
 }
+  
