@@ -5,9 +5,8 @@ function setup() {
 }
 
 function draw() {
-  background(220);
-  beginRecordSvg("file.svg");
-  quad(20, 20, 80, 20, 80, 80, 20, 80); //crée un carré pour tester
-  endRecordSvg();
+  background("yellow");
+  //beginRecordSvg("file.svg");
+  circle(400,400,100); //cercle de rayon 100 au coordonnées 400,400
+  //endRecordSvg();
 }
-  
